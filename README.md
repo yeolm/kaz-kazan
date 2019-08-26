@@ -1,1 +1,1 @@
-# kaz-kazan
+# kazi-kazan
