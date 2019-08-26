@@ -1,0 +1,282 @@
+
+body {
+  /* Location of the image */
+  background-image: url(images/HEADER.png);
+  
+  /* Image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+  
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+ /* background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
+  
+  /* Pick a solid background color that will be displayed while the background image is loading */
+  background-color:#464646;
+  /* SHORTHAND CSS NOTATION
+   * background: url(background-photo.jpg) center center cover no-repeat fixed;
+   */
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width: 321px) {
+
+}
+@media only screen and (max-width: 600px) {
+        body {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url(images/KARTBG.png);
+  }
+    #rectangle{
+        
+        padding-left:10%;
+        padding-top:45%;
+    }
+    .rows{
+        padding:50px;
+   
+    }
+}
+
+/* iPhone 5 (landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */
+      #rectangle{
+        
+        padding-left:43%;
+        padding-top:12%;
+    }
+    .rows{
+        padding:10px;
+   
+    }
+  
+}
+
+/* iPhone 5 (portrait) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */
+    body {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url(images/KARTBG.png);
+  }
+    #rectangle{
+        
+        padding-left:10%;
+        padding-top:45%;
+    }
+    .rows{
+        padding:50px;
+   
+    }
+}
+/* iPhone 6 (landscape) ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+
+  /* Styles */
+      #rectangle{
+        
+        padding-left:43%;
+        padding-top:13%;
+    }
+    .rows{
+        padding:10px;
+   
+    }
+}
+/* iPhone 6 (portrait) ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */
+    body {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url(images/KARTBG.png);
+  }
+    #rectangle{
+        
+        padding-left:10%;
+        padding-top:45%;
+    }
+    .rows{
+        padding:50px;
+   
+    }
+}
+/* iPhone 6/7/8+ portrait ----------- */
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : portrait) { 
+  /* Styles */
+    body {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url(images/KARTBG.png);
+  }
+    #rectangle{
+        
+        padding-left:12%;
+        padding-top:55%;
+    }
+    .rows{
+        padding:50px;
+   
+    }
+    
+    
+}
+/* iPhone 6/7/8+ landscape ----------- */
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : landscape) {
+  /* Styles */
+      #rectangle{
+        
+        padding-left:44%;
+        padding-top:14%;
+    }
+    .rows{
+        padding:10px;
+   
+    }
+    
+    
+    
+}
+/* Samsung Galaxy S3 (portrait) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+         /* Styles */
+  /* Styles */
+    body {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url(images/KARTBG.png);
+  }
+    #rectangle{
+        
+        padding-left:12%;
+        padding-top:55%;
+    }
+    .rows{
+        padding:50px;
+   
+    }
+}
+/*iPhone X in portrait*/
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : portrait){
+    
+  /* Styles */
+    body {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url(images/KARTBG.png);
+  }
+    #rectangle{
+        
+        padding-left:12%;
+        padding-top:55%;
+    }
+    .rows{
+        padding:50px;
+   
+    }
+    
+    
+    
+    
+}
+/* iphoneX landscape*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : landscape) {
+  /* Styles */
+      #rectangle{
+        
+        padding-left:44%;
+        padding-top:14%;
+    }
+    .rows{
+        padding:10px;
+   
+    }
+    
+    
+}
+/* Samsung Galaxy S5 (portrait) ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+    
+  /* Styles */
+    body {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url(images/KARTBG.png);
+  }
+    #rectangle{
+        
+        padding-left:12%;
+        padding-top:55%;
+    }
+    .rows{
+        padding:50px;
+   
+    }
+}
+/* Samsung Galaxy S4 (portrait) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+  /* Styles */
+    body {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url(images/KARTBG.png);
+  }
+    #rectangle{
+        
+        padding-left:12%;
+        padding-top:55%;
+    }
+    .rows{
+        padding:50px;
+   
+    }
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1024px) {
+    
+       #rectangle{
+        
+        padding-left:45%;
+        padding-top:16%;
+    }
+    .rows{
+        padding:10px;
+   
+    }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,142 @@
+ html {
+	overflow: auto;
+	
+ }
+ 
+.images{
+	width:100%;
+	height:auto;
+}
+.bodys{
+	background-color:rgb(14,13,36);
+	
+}
+.footer{
+	background-color:rgb(14,13,36);
+	position:relative;
+	height:100%;
+
+}
+body {
+  padding: 20px 0px;
+}
+
+.container {
+  background-color:white;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none; 
+  -o-user-select: none;
+  user-select: none;
+  z-index: 5;
+}
+
+.canvas {
+  position: fixed;
+  top: 0;
+
+ 
+}
+
+
+.form {
+  padding: 20px;
+}
+.imgcontainer{
+	top:0;
+	left:0;
+	position:absolute;
+	z-index:-1;
+}
+#game {
+
+    top:100px;
+    left:100px;
+}
+.panel {
+    margin: 42px 20px;
+    float:left;
+    cursor:pointer;
+}
+.column{
+	float:left;
+    cursor:pointer;
+	flex: 33.33%;
+	padding: 15px 0px 0px 8px;
+	
+}
+.rows{
+	top:0;
+	left:0;
+	display:flex;
+	width:64px;
+}
+
+
+.rect{
+    
+	
+}
+#LoadPopupLogin {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+
+    background: -moz-linear-gradient(320deg, rgba(123,9,68,1) 0%, rgba(186,13,102,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(123,9,68,1)), color-stop(100%, rgba(186,13,102,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(320deg, rgba(123,9,68,1) 0%, rgba(186,13,102,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(320deg, rgba(123,9,68,1) 0%, rgba(186,13,102,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(320deg, rgba(123,9,68,1) 0%, rgba(186,13,102,1) 100%); /* ie10+ */
+    background: linear-gradient(130deg, rgba(123,9,68,1) 0%, rgba(186,13,102,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7b0944', endColorstr='#BA0D66',GradientType=1 ); /* ie6-9 */
+
+    max-width: 650px;
+    max-height: 400px;
+    display: block;
+    padding: 40px;
+
+    color: #000000;
+
+}
+#LoadPopupLogin p {
+    font-weight: bold;
+    font-size: 12px;
+    padding-top: 8px;
+    color:#ffffff;
+}
+
+#LoadPopupLogin .row {
+    margin-bottom: 5px;
+}
+
+#LoadPopupLogin .row input {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    padding: 5px 15px;
+    width: 100%;
+}
+
+#LoadPopupLogin .row input[type="submit"] {
+    padding: 5px 15px;
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #dc081e;
+}
+
+#LoadPopupLogin h2 {
+    font-weight: 600;
+    font-size: 37px;
+}
+
+#LoadPopupLogin h2 span {
+    display: block;
+    font-size: 20px;
+    font-style: italic;
+
+}
